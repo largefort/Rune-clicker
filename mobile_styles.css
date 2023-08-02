@@ -1,1 +1,13 @@
+#game {
+    text-align: center;
+}
+
+#rune {
+    height: 50px; /* Smaller image for mobile version */
+    cursor: pointer;
+}
+
+#hackSilver {
+    font-size: 20px; /* Smaller text for mobile version */
+}
 
