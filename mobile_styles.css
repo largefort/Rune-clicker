@@ -1,13 +1,35 @@
+body {
+    background-color: #cccccc;
+    font-family: Arial, sans-serif;
+}
+
 #game {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
     text-align: center;
 }
 
-#rune {
-    height: 50px; /* Smaller image for mobile version */
+#game img {
     cursor: pointer;
+    width: 100px;
+    height: 100px;
 }
 
-#hackSilver {
-    font-size: 20px; /* Smaller text for mobile version */
+#game button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 100%;
 }
 
+#game button:hover {
+    background-color: #45a049;
+}
